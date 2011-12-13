@@ -49,7 +49,7 @@ public class autoIndex {
 		Workbook workbookEntSai = Workbook.getWorkbook(entSai);
 		Sheet entSaiSheet = workbookEntSai.getSheet(0);
 		
-		this.prepareHeaders(inputSheet, outputSheet);
+		autoIndex.prepareHeaders(inputSheet, outputSheet);
 		
 		//TODO Chamar função para ler documento de entradas e saidas
 
